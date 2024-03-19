@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ff9f43, #ffcb7b); /* Orange gradient background */
+}
+
+div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: white; /* White text color */
+}
+
+input[type="text"] {
+    background-color: black; /* Black background color for search bar */
+    color: white; /* White text color for search bar */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#searchResults {
+    text-align: left;
+}
+
+.fruitItem {
+    cursor: pointer;
+}
+
+.highlighted {
+    background-color: cyan;
+    transform: scale(1.1);
+}
